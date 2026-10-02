@@ -6,15 +6,15 @@
  */
 public interface Boveda<T> {
 
-    /** Agregamos un elemento a la bóveda. */
+    // Agregamos un elemento a la bóveda.
     void guardar(T elemento);
 
-    /** Quita y devuelve el último elemento guardado. */
+    //Quita y devuelve el último elemento guardado.
     T sacar();
 
-    /** Indica si la bóveda no contiene ningún elemento. */
+    //Indica si la bóveda no contiene ningún elemento.
     boolean estaVacia();
 
-    /** Devuelve la cantidad de elementos que hay guardados. */
+    //Devuelve la cantidad de elementos que hay guardados.
     int tamanio();
 }
